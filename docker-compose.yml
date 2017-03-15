@@ -6,5 +6,6 @@ services:
      - "./:/code"
      working_dir: 
          "/code"
-     command: /bin/bash -c "python use_openface.py"
+     command: /bin/bash -c "python use_openface.py; chmod 777 ./res_pics/*"
+
 
