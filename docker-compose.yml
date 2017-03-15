@@ -1,0 +1,10 @@
+version: "2"
+services:
+  python:
+     image: bamos/openface
+     volumes:
+     - "./:/code"
+     working_dir: 
+         "/code"
+     command: /bin/bash -c "python use_openface.py"
+
