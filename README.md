@@ -10,7 +10,7 @@ Program uses:
 
 Program reading all images in directory "./pics" and writing them down in directory "./res_pics. File "output.txt" is storaging landmarks coordinates for each image. Example of result image is below:
 
-![Example]()
+![Example](https://github.com/exotikh3/landmarks_detection/blob/master/res_pics/res_0000000000146780.jpg)
 
 ## Installation
 
